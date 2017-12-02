@@ -88,8 +88,7 @@ const TableRow = (props) =>
     <td>{props.name}</td>
     <td>{props.driver}</td>
     <td className='text-right'>
-        <a className='btn btn-outline-primary' href='' onClick={props.onEdit}>Edit</a>
-        <a className='btn btn-outline-danger' href='' onClick={props.onDelete}>Delete</a>
+        <a className='btn btn-outline-primary' href='' onClick={props.onEdit}>Edit</a> <a className='btn btn-outline-danger' href='' onClick={props.onDelete}>Delete</a>
     </td>
 </tr>
 
